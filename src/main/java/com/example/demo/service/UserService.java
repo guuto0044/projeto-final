@@ -1,2 +1,12 @@
-package com.example.demo.service;public class UserService {
+package com.example.demo.service;
+
+import com.example.demo.model.User;
+
+public interface UserService {
+
+   User findById(Long id);
+
+   User create(User userToCreate);
+
+
 }
